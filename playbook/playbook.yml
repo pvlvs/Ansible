@@ -1,0 +1,7 @@
+---
+-name: Install nginx
+hosts: 176.123.164.183
+become: yes
+
+roles:
+  -install-nginx
