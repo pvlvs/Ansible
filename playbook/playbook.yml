@@ -1,6 +1,6 @@
 ---
 -name: Install nginx
-hosts: 176.123.164.183
+hosts: host1_vm1
 become: yes
 gather_facts: false
 roles:
